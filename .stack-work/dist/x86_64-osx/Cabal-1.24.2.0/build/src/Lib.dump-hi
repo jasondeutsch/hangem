@@ -1,0 +1,81 @@
+
+==================== FINAL INTERFACE ====================
+2018-02-20 22:32:08.004783 UTC
+
+interface hangem-0.1.0.0-JYEHObG7tCTCnJN2dgWihu:Lib 8002
+  interface hash: 4e49acf62f2c0bfdb9977374c83dc4cb
+  ABI hash: b6803b61db5989cc77433d84ca9c5fc4
+  export-list hash: 5c2421c086548cc9ef70358934d41c36
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f6624f22fcdd76ed0ac6625466e2d712
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.initGame
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:Data.Foldable 3e0b6967a1da89945d0e2d47266337a2
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Tuple 7dc4bbb45d2e69c991ffac438beeca11
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO c9de64c5f5407c4cf1c52500c4d15200
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+8234572b7dd1b6c8a0f6b4d3fd4a9323
+  $fShowGame :: GHC.Show.Show Lib.Game
+  DFunId
+d0bdeaa84525cd1a4891b005399e1816
+  $tc'Game :: GHC.Types.TyCon
+658995a31b0d1c492fdca0ddf726f15f
+  $tc'Loss :: GHC.Types.TyCon
+31cbba863f995f60f4714f5b0045aacd
+  $tc'Undecided :: GHC.Types.TyCon
+a15ec015224fb24043a4610fdde4344d
+  $tc'Win :: GHC.Types.TyCon
+861c640b72bf524ab72aee01820ee95b
+  $tcGame :: GHC.Types.TyCon
+9dd3d5a33afc935d723796fcbfb776b4
+  $tcStatus :: GHC.Types.TyCon
+4223cbc60b2e767dd993891e01a1cb27
+  $trModule :: GHC.Types.Module
+8234572b7dd1b6c8a0f6b4d3fd4a9323
+  data Game = Game {puzzle :: Lib.Puzzle, guesses :: Lib.Guesses}
+4b77170931d9590d03bacc58c95bf2c2
+  type Guesses = ([Lib.Right], [Lib.Wrong])
+76b9d2b91f135b66fb93088ebf80fa9d
+  type Puzzle = GHC.Base.String
+6c9d4ea336c1269a67c30ff99cc6947c
+  type Right = GHC.Types.Char
+ea75dd5c402c6b403812858bf4ba6911
+  data Status = Undecided | Loss | Win
+905a6908b17785190fea70823b34c770
+  type Wrong = GHC.Types.Char
+a2617c074aaaaf292e79a8bc7000b8db
+  guesses :: Lib.Game -> Lib.Guesses
+  RecSel Left Lib.Game
+bd9797f0a686f701d01c76ae40480174
+  initGame :: GHC.Types.IO ()
+88972c0c20aa948e560702cac1ec6349
+  puzzle :: Lib.Game -> Lib.Puzzle
+  RecSel Left Lib.Game
+instance [safe] GHC.Show.Show [Lib.Game] = Lib.$fShowGame
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

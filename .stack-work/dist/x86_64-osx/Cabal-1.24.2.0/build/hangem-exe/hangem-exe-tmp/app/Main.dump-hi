@@ -1,0 +1,40 @@
+
+==================== FINAL INTERFACE ====================
+2018-02-20 22:32:08.589192 UTC
+
+interface main@main:Main 8002
+  interface hash: 6f00f7fb42e01460cd8e8f5d2d303766
+  ABI hash: ce365e884a32c186e98e6273b1eeeb9f
+  export-list hash: 2e367c5c5be91e8803acc0b244e4aca7
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 270ebad6f7b6f985c81a11bc602afd4d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      hangem-0.1.0.0@hangem-0.1.0.0-JYEHObG7tCTCnJN2dgWihu
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  hangem-0.1.0.0@hangem-0.1.0.0-JYEHObG7tCTCnJN2dgWihu:Lib b6803b61db5989cc77433d84ca9c5fc4
+83f529351410271e83fed952c86159e1
+  $trModule :: GHC.Types.Module
+0d166822e21f7182ece26123ea2cf341
+  main :: GHC.Types.IO ()
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
